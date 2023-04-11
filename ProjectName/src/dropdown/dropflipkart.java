@@ -29,9 +29,10 @@ public class dropflipkart {
 		Object order = driver.findElement(By.xpath("//div[text()='Orders"));
 		 
 		 act.moveToElement(login);
-		
+		 
 		 Actions move = new Actions(driver);
 		move.dragAndDropBy(login, 0, 0);
-	}
+	
+	 }
 
 }
